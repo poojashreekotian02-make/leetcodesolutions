@@ -1,9 +1,5 @@
-class Solution(object):
-    def halvesAreAlike(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+class Solution:
+    def halvesAreAlike(self, s: str) -> bool:
         mid=len(s)//2
         a=s[:mid]
         b=s[mid:]
