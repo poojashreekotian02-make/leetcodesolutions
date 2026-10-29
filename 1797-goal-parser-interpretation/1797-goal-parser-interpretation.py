@@ -1,9 +1,4 @@
-class Solution(object):
-    def interpret(self, command):
-        """
-        :type command: str
-        :rtype: str
-        """
-        command=command.replace("()","o")
-        command=command.replace("(al)","al")
-        return command
+class Solution:
+    def interpret(self, command: str) -> str:
+        return command.replace("()","o").replace("(al)","al")
+        
